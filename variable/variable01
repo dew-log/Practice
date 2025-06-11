@@ -1,0 +1,15 @@
+/* 1. 화성에서 무게 구하기
+지구에서의 무게는 70kg이고,
+화성 중력은 지구의 약 0.378배입니다.
+실수 출력은 소수점 6자리까지 (%.6f)
+화성에서의 몸무게를 계산해 식과 함께 출력하세요.*/
+
+public class variable01 {
+    public static void main(String[] args) {
+        int earth = 70;
+        int mars = earth*0.378
+
+        System.out.print("지구에서의 무게는 " + earth + "kg 이고, ");
+        System.out.printf("%.6f", "화성에서의 무게는 " + mars + "kg입니다.");
+    }
+}
