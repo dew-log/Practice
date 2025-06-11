@@ -9,6 +9,16 @@ import java.util.Scanner;
 public class text09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        char apb = sc.next().charAt(0);
+        char next;
 
+        if (Character.isLowerCase(apb)) {
+            next = (char)('z' - (apb - 'a'));
+        } else if (Character.isUpperCase(apb)) {
+            next = (char)('Z' - (apb - 'A'));
+        } else {
+            next = apb;
+        }
+        System.out.println(next);
     }
 }

@@ -8,6 +8,17 @@ import java.util.Scanner;
 public class text08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        char apb = sc.next().charAt(0);
+        char next;
 
+        if (Character.isLowerCase(apb)) {
+            next = (char)('a' + (apb - 'a' + 2) % 26);  // 소문자 범위에서 순환
+        } else if (Character.isUpperCase(apb)) {
+            next = (char)('A' + (apb - 'A' + 2) % 26);  // 대문자 범위에서 순환
+        } else {
+            next = apb; // 알파벳이 아니면 그대로 출력
+        }
+        System.out.println(next);
     }
 }
+
