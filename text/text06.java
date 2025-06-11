@@ -8,6 +8,17 @@ import java.util.Scanner;
 public class text06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        String text = sc.nextLine();
 
+        for(int i=0;i<text.length(); i++){
+            char ch = text.charAt(i);
+
+            if(Character.isLowerCase(ch)){
+                System.out.print(Character.toUpperCase(ch));
+            }else{
+                System.out.print(Character.toLowerCase(ch));
+            }
+        }
+        System.out.println();
     }
 }

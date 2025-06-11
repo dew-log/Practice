@@ -8,6 +8,16 @@ import java.util.Scanner;
 public class text07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        char apb = sc.next().charAt(0);
+        char next;
 
+        if (apb == 'z') {
+            next = 'a'; // 소문자 z일 때는 a로
+        } else if (apb == 'Z') {
+            next = 'A'; // 대문자 Z일 때는 A로
+        } else {
+            next = (char)(apb + 1); // 그 외에는 다음 문자
+        }
+        System.out.println(next);
     }
 }
