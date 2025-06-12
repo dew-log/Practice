@@ -31,4 +31,15 @@ public class test05 {
                 break;
         }
     }
+
+    // 조건:
+    // "지쳤어" → "괜찮아, 오늘도 수고했어"
+    // "무기력해" → "조금 천천히 가도 돼"
+    // 그 외 → "내가 곁에 있어"
+    public class test06 {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            String emo = sc.nextLine();
+        }
+    }
 }

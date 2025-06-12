@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/text" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/variable" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/while" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
