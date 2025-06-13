@@ -18,7 +18,7 @@ public class joon2525 {
         a+=m;
 
         int v = b%60; // 나머지
-
+        a = a % 24;
         System.out.printf("%d %d", a,v);
     }
 }
