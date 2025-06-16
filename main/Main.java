@@ -11,5 +11,6 @@ public class Main {
         System.out.print(text + " ");
         }
         System.out.print("int");
+        System.out.print("int");
     }
 }
