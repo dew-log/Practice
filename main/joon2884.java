@@ -7,7 +7,6 @@ import java.util.Scanner;
 // 24시간 표현에서 하루의 시작은 0:0(자정)이고, 끝은 23:59(다음날 자정 1분 전)이다.
 // 입력 예시 : 10 10 / 0 30 / 23 40
 // 출력 예시 : 9 25 / 23 45 / 22 55
-
 public class joon2884 {
     public static void main(String[] args) {  //
         Scanner sc = new Scanner(System.in);  //
